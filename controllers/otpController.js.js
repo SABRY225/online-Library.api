@@ -1,7 +1,7 @@
 // controllers/otpController.js
 const otpGenerator = require('otp-generator');
 const OTP = require('../models/otpModel');
-const User = require('../Models/userModel');
+const User = require('../models/clientModel');
 
 const sendOTP = async (req, res) => {
   try {

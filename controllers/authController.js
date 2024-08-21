@@ -1,4 +1,4 @@
-const User = require('../models/userModel');
+const User = require('../models/clientModel');
 const authService = require('../services/auth');
 const hashingService = require('../services/hashing');
 const jwt = require('jsonwebtoken');

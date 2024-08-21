@@ -1,4 +1,4 @@
-const User = require("../models/userModel");
+const User = require("../models/clientModel");
 const CardPaymant = require("../models/cardPaymantModel");
 const Comment =require("../models/commentModel")
 const { model } = require('mongoose');

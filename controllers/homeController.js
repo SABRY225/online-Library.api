@@ -1,4 +1,4 @@
-const User = require('../models/userModel'); 
+const User = require('../models/clientModel'); 
 const Order = require('../models/orderModel'); 
 
 const numberUser = async (req, res, next) => {
