@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-const OrderSchema = new mongoose.Schema(
+const orderModelSchema = new mongoose.Schema(
     {
         productID: {
             type: mongoose.Schema.Types.ObjectId,
@@ -20,6 +20,6 @@ const OrderSchema = new mongoose.Schema(
     },
 );
 
-const Order = mongoose.models.Order ||mongoose.model('Order', OrderSchema);
+const Order = mongoose.models.Order || mongoose.model('Order', orderModelSchema);
 
 module.exports = Order;

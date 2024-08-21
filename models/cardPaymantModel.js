@@ -25,6 +25,4 @@ const CardPaymantSchema = new mongoose.Schema(
     { timestamps: true }
 );
 
-const CardPaymant = mongoose.model('CardPaymant', CardPaymantSchema);
-
-module.exports = CardPaymant;
+module.exports = mongoose.model('CardPaymant', CardPaymantSchema);

@@ -1,6 +1,6 @@
 const User = require("../Models/userModel");
 const CardPaymant = require("../models/cardPaymantModel");
-const Comment =require("../models/commentMode")
+const Comment =require("../models/commentModel")
 const { model } = require('mongoose');
 
 const getAllCard=async (req,res,next)=>{

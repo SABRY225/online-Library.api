@@ -1,4 +1,4 @@
-const Comment = require('../models/commentMode');
+const Comment = require('../models/commentModel');
 
 // Function to create a new comment
 const createComment = async (req, res, next) => {
