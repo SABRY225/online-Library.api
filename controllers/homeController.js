@@ -1,5 +1,5 @@
-const User = require('../Models/userModel'); 
-const Order = require('../Models/orderModel'); 
+const User = require('../models/userModel'); 
+const Order = require('../models/orderModel'); 
 
 const numberUser = async (req, res, next) => {
     try {
