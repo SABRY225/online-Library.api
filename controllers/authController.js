@@ -1,9 +1,7 @@
 const User = require('../models/clientModel');
 const authService = require('../services/auth');
 const hashingService = require('../services/hashing');
-const jwt = require('jsonwebtoken');
 const OTP = require('../models/otpModel');
-const bcrypt = require('bcrypt');
 const register = async (req, res, next) => {
     try {
         const {

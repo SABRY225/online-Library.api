@@ -1,6 +1,6 @@
 const jwt=require('jsonwebtoken')
 const bcrypt = require('bcryptjs');
-const userService = require('./user.js');
+const userService = require('./user');
 
 class authService {
    
